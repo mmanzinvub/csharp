@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace VubCaffe
 {
-    internal class Sprite
+    public class Sprite : Drinks
     {
+        public Sprite(string name, double price) : base("Sprite", 1.90)
+        {
+
+        }
     }
 }

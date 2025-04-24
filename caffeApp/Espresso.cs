@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace VubCaffe
 {
-    internal class Espresso
+    public class Espresso : Drinks
     {
+        public Espresso(string name, double price) : base("Espresso", 2.00)
+        {
+
+        }
     }
 }
