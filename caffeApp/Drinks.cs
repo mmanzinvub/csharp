@@ -8,6 +8,6 @@ namespace VubCaffe
 {
     public class Drinks : Consumable
     {
-        public Drinks(string name, decimal price) : base(name, price) { }
+        public Drinks(string name, double price) : base(name, price) { }
     }
 }
