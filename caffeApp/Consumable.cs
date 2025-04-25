@@ -16,5 +16,7 @@ namespace VubCaffe
             Name = name;
             Price = price;
         }
+
+        public virtual double TotalPrice() => Price;
     }
 }

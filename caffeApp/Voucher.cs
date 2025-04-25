@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace VubCaffe
 {
-    internal class Voucher
+    public class Voucher : IProduct
     {
+        public string Name { get; } = "Voucher";
+        public double Price { get; } = 100.0;
+
+        public Voucher()
+        {
+            
+        }
+
+        public double TotalPrice() => -Price;
     }
 }

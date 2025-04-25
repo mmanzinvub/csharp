@@ -10,5 +10,6 @@ namespace VubCaffe
     {
         string Name { get; }
         double Price { get; }
+        double TotalPrice();
     }
 }
