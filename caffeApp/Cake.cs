@@ -8,7 +8,7 @@ namespace VubCaffe
 {
     public class Cake : Sweets
     {
-        public Cake(string name, double price) : base("Kolač", 3.00)
+        public Cake() : base("Kolač", 3.00)
         {
 
         }

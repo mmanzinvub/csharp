@@ -172,6 +172,7 @@
             btnCake.TabIndex = 3;
             btnCake.Text = "Kolač";
             btnCake.UseVisualStyleBackColor = true;
+            btnCake.Click += btnCake_Click;
             // 
             // btnIceCream
             // 
@@ -181,6 +182,7 @@
             btnIceCream.TabIndex = 2;
             btnIceCream.Text = "Sladoled";
             btnIceCream.UseVisualStyleBackColor = true;
+            btnIceCream.Click += btnIceCream_Click;
             // 
             // gbBeverages
             // 
@@ -202,6 +204,7 @@
             btnFanta.TabIndex = 3;
             btnFanta.Text = "Fanta";
             btnFanta.UseVisualStyleBackColor = true;
+            btnFanta.Click += btnFanta_Click;
             // 
             // btnSprite
             // 
@@ -253,6 +256,7 @@
             btnCappucino.TabIndex = 1;
             btnCappucino.Text = "Cappucino";
             btnCappucino.UseVisualStyleBackColor = true;
+            btnCappucino.Click += btnCappucino_Click;
             // 
             // btnEspresso
             // 

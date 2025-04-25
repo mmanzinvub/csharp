@@ -8,7 +8,7 @@ namespace VubCaffe
 {
     public class IceCream : Sweets
     {
-        public IceCream(string name, double price) : base("Sladoled", 2.00)
+        public IceCream() : base("Sladoled", 2.00)
         {
 
         }

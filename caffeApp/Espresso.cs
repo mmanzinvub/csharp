@@ -8,7 +8,7 @@ namespace VubCaffe
 {
     public class Espresso : Drinks
     {
-        public Espresso(string name, double price) : base("Espresso", 2.00)
+        public Espresso() : base("Espresso", 2.00)
         {
 
         }
